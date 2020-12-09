@@ -13,7 +13,7 @@
 
 }
 
-.box  {
+.box {
   margin-right: 30px;
 }
 
@@ -21,10 +21,7 @@
   position: relative;
 }
 
-.img-wrapper:hover {
-  opacity: 0.7;
-  background-color: black;
-}
+
 
 .number {
   position: absolute;
@@ -34,6 +31,12 @@
   color: #FFFFFF;
   padding: 2px 13px;
   font-weight: 700;
+}
+
+.button-top {
+  position: absolute;
+  right: 0;
+  top: 10px;
 }
 
 .register {
@@ -55,13 +58,15 @@
 
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 10px;
-  border-bottom: 5px solid #8383b8;
+  opacity: 0.7;
 }
 
 .button {
   display: flex;
+  align-items: center;
+
 }
 
 .button-wrapper {
@@ -74,4 +79,13 @@
   font-weight: 700;
   padding: 5px;
   border-radius: 5px;
+}
+
+.btn-register {
+
+}
+
+.trash-icon {
+  width: 80px;
+  height: 80px;
 }
