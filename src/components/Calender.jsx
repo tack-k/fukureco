@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import 'date-fns';
 import DateFnsUtils from '@date-io/date-fns';
 import {
@@ -6,8 +6,14 @@ import {
   KeyboardDatePicker,
 } from '@material-ui/pickers';
 
-const Calender = (props) => {
-const {selectedDate, handleDateChange} = props;
+const Calender = () => {
+  const [selectedDate, setSelectedDate] = useState(new Date());
+
+
+  const handleDateChange = (date) => {
+    setSelectedDate(date);
+  };
+
 
   return (
     <MuiPickersUtilsProvider utils={DateFnsUtils}>
