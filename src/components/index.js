@@ -1,2 +1,6 @@
 export {default as Calender} from './Calender' 
 export {default as MenuBar} from './MenuBar' 
+export {default as StandardButton} from './StandardButton' 
+export {default as PaginationSize} from './PaginationSize' 
+export {default as SimpleTabs} from './SimpleTabs' 
+export {default as Tops} from './Tops' 
